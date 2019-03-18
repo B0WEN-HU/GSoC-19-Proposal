@@ -57,13 +57,13 @@ Work deliverables and details are listed below.
     >{{Users might want to specify the rules of data conversion in case that the default rules won't work properly. I wonder whether it is a part of the job?}}
 ```
 
-   * **Control signal module:** The control signal module will generate clock, reset and any other essential signals to control the Verilog module. moreover, it will handle the input and output with correct timing, make the Verilog module works as intended.
+    * **Control signal module:** The control signal module will generate clock, reset and any other essential signals to control the Verilog module. moreover, it will handle the input and output with correct timing, make the Verilog module works as intended.
 
 ```
 >{{Due to cycle-accurate Verilog simulation by Verilator, the timing of input and output may vary in different module. For example, there might be uncertain number of cycles before the output data is valid(However, the author of the module should know about it).Or, some module would have to take its time to do the calculation, and won't respond to the input data for several cycles, which means if we put the data to the input port during these cycles, the data would just be ignored. I am not sure what should we do to deal with this issue.}}
 ```
 
-   * **Plugin structure:** The plugin structure makes the external Verilog code be compiled and executed at runtime. It should be implemented through a dynamic link library(shared library) with fixed interface, and called at runtime.
+    * **Plugin structure:** The plugin structure makes the external Verilog code be compiled and executed at runtime. It should be implemented through a dynamic link library(shared library) with fixed interface, and called at runtime.
 
 ## 5 Timeline
 * **May 6 - May 26** - Learn related knowledge and Discuss with the mentor.
