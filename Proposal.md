@@ -5,23 +5,21 @@
 Hardware accelerators are necessary or at least desirable in many SDR systems. GNU Radio provides an open and free platform for designing real time SDR system. This proposal elaborates the architecture of Verilog design simulation integration, utilizing the existing tool, Verilator. 
 
 ## 2 Reasons for integrating hardware simulation
-In order to achieve a fast and efficient real-time SDR system, Hardware accelerators are commonly used. These accelerators generally are designed with HDL, like Verilog, and implemented on FPGA, a programmable hardware device. The typical workflow to design a FPGA accelerator is like Figure 1.
+In order to achieve a fast and efficient real-time SDR system, Hardware accelerators are commonly used. These accelerators generally are designed with HDL, like Verilog, and implemented on FPGA, a programmable hardware device. The typical workflow to design a FPGA accelerator is shown below.
 
 ```graphTB
-st((Start)) --> op1[Determine the specification and algorithm of the system]
-op1 --> tag1(Software workflow part)
-tag1 --> op2[Proof the concept with software code Matlab/Python]
-op2 --> op3[Verify the software code with extensive test cases]
-op3 --> cond1{Passed?}
-cond1 --YES--> tag2(Hard workflow part)
-tag2 --> op4[Implement the same algorithm with HDL]
-cond1 --NO--> tag1
-op4 --> op5[Verify the hardware design with extensive testbenches]
-op5 --> cond2{Passed?}
-cond2 --YES--> e((End))
-cond2 --NO--> tag2
+Software
+{
+   [Determine the specification and algorithm of the system]
+-->[Proof the concept with software code Matlab/Python]
+-->[Verify the software code with extensive test cases]
+}
+Hardware
+{
+-->[Implement the same algorithm with HDL]
+-->[Verify the hardware design with extensive testbenches]
+}
 ```
-<center>Figure 1</center>
 
 This development workflow is complicated and hard to cooperate with the existing SDR system. However, with Verilator, Verilog code could be simulated and tested within GNU Radio flow, which could save a lot of effort writing test cases, greatly simplify the development process, and test the hardware design in a real system scenario. Verilator is a Verilog simulator. Verilator can compile synthesizable Verilog code into C++ code, which is especially well suited to generate executable hardware model for software environment.
 
