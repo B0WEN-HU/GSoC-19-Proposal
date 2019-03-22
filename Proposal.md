@@ -14,6 +14,7 @@ I never been involved in any open source projects before. But I am still interes
 I have uploaded some of the code I have written. Check the links below.
 
 https://github.com/B0WEN-HU/Fractal_Multithreading_demo
+{to be continued}
 
 I am currently fluent in Chinese and English.
 
