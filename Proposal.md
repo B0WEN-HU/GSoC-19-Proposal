@@ -1,13 +1,14 @@
 # <center>GSoC 2019: Cycle-accurate Verilog Design Simulation Integration</center>
 ### <center>Bowen Hu</center>
 
-##Self introduction
-###Basic information
+## Self introduction
+
+### Basic information
 My name is Bowen Hu. I am a first-grade graduate student majoring in microelectronics at Fudan University, Shanghai, China. My undergraduate major is electronic information science and technology.
 
 The main work of my major now, is to design digital integrated circuits with Verilog and many other tools. By far, I've used several programming languages including C++, Python, Verilog and MATLAB. Even though I have not used Verilator before, I do have experience of how to do Verilog simulation with ModelSim and Vivado, which are both the simulation tools commonly used in the industry. I will not get credits for the GSoC project.
 
-###Background
+### Background
 I never been involved in any open source projects before. But I am still interested in SDR, even though I chose IC design as my major.
 
 I have uploaded some of the code I have written. Check the links below.
