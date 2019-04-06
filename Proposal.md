@@ -6,11 +6,17 @@
 ### Basic information
 
 **Name**: Bowen Hu
+
 **University**: Fudan University, Shanghai, China
+
 **Email**: bowenhu19@gmail.com
+
 **Github**: https://github.com/B0WEN-HU/
+
 **Contacts**: Email, Skype
+
 **Residence**: Shanghai, China (UTC+8)
+
 
 ### Background
 My name is Bowen Hu. I am a first-grade graduate student majoring in microelectronics at Fudan University, Shanghai, China. My undergraduate major is electronic information science and technology.
