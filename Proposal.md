@@ -11,7 +11,7 @@ The main work of my major now, is to design digital integrated circuits with Ver
 ### Background
 I never been involved in any open source projects before. But I am still interested in SDR, even though I chose IC design as my major.
 
-I have uploaded some of the code I have written. Check the links below. {to be continued}
+I have uploaded some of the code I have written. Please check the links below.
 
 * **C++**
 
@@ -127,3 +127,10 @@ I plan to spend 40 hours a week writing code during GSoC period. I might have ab
 
 * **August 17- August 26** - Submit final work product and final evaluation
 
+## References
+
+https://wiki.gnuradio.org/index.php/GSoCIdeas
+
+https://wiki.gnuradio.org/index.php/Guided_Tutorial_GNU_Radio_in_C%2B%2B
+
+https://www.veripool.org/projects/verilator/wiki/Manual-verilator
