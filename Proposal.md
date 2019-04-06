@@ -13,7 +13,7 @@
 
 **Github**: https://github.com/B0WEN-HU/
 
-**Contacts**: Email, Skype
+**Contacts**: Email, Skype, Google Hangouts
 
 **Residence**: Shanghai, China (UTC+8)
 
