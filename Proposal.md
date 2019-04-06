@@ -3,7 +3,7 @@
 
 ## Self introduction
 
-### Basic information
+### 1 Basic information
 
 **Name**: Bowen Hu
 
@@ -18,7 +18,7 @@
 **Residence**: Shanghai, China (UTC+8)
 
 
-### Background
+### 2 Background
 My name is Bowen Hu. I am a first-grade graduate student majoring in microelectronics at Fudan University, Shanghai, China. My undergraduate major is electronic information science and technology.
 
 The main work of my major now, is to design digital integrated circuits with Verilog and many other tools. By far, I've used several programming languages including C++, Python, Verilog and MATLAB. Even though I have not used Verilator before, I do have experience of how to do Verilog simulation with ModelSim and Vivado, which are both the simulation tools commonly used in the industry. I will not get credits for the GSoC project.
