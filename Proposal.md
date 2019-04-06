@@ -46,7 +46,7 @@ I have uploaded some of the code I have written. Please check the links below.
 
 I am currently fluent in Chinese and English.
 
-I heard about GNU Radio about a year ago, when I was an undergraduate. I built a wireless communication demo (it still needs clock wire though, so technically it is not *wireless*.) with the flowgraph of GNU Radio. I want to explore the potential of hardware in SDR system. So, it is best to stay in close contact with GNU Radio community, even if the GSoC project is over. Actually, I think this is an excellent opportunity to learn more about GNU Radio, by contributing to it.
+I heard about GNU Radio about a year ago, when I was an undergraduate. I built a wireless communication demo (it still needs clock wire though, so technically it is not *wireless* ;).) with the flowgraph of GNU Radio. I want to explore the potential of hardware in SDR system. So, it is best to stay in close contact with GNU Radio community, even if the GSoC project is over. Actually, I think this is an excellent opportunity to learn more about GNU Radio, by contributing to it.
 
 ## Topic background
 ### 1 Introduction
